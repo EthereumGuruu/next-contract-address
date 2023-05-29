@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #eee;
+}
+
+#app {
+    width: 80%;
+    margin: 40px auto;
+    background: #fff;
+    border: 1px solid rgba(155, 155, 155, 0.4);
+    border-radius: 15px;
+    padding: 40px 60px;
+}
+#if-custom-nonce {
+    display: none;
+}
+
+.custom-nonce {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#result {
+    background: #f8f8f8;
+    padding: 15px;
+    justify-content: center;
+}
